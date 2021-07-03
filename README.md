@@ -34,11 +34,11 @@ pip3 install -i https://mirrors.aliyun.com/pypi/simple/ pip
 
 pip3 install -i https://mirrors.aliyun.com/pypi/simple/ pygame
 
-离线语音识别方案一 SpeechRecognition + pocketsphinx：
-pip3 install -i https://mirrors.aliyun.com/pypi/simple/ SpeechRecognition
+离线语音识别方案一 SpeechRecognition + pocketsphinx：  
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ SpeechRecognition  
 pip3 install -i https://mirrors.aliyun.com/pypi/simple/ pocketsphinx
 
-离线语音识别方案二 Picovoice：
-pip3 install -i https://mirrors.aliyun.com/pypi/simple/ picovoice
-pip3 install -i https://mirrors.aliyun.com/pypi/simple/ pvporcupine
+离线语音识别方案二 Picovoice：  
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ picovoice  
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ pvporcupine  
 pip3 install -i https://mirrors.aliyun.com/pypi/simple/ pvrhino
