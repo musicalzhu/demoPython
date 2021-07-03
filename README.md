@@ -7,6 +7,8 @@ https://python-chess.readthedocs.io/
 PyQt5中文教程
 https://maicss.gitbook.io/pyqt5-chinese-tutoral/
 
+Wake Word Detection on the Raspberry Pi with Porcupine
+https://pimylifeup.com/raspberry-pi-porcupine/
 
 ------------------------------------------------------------------------------------------
 --国内镜像库
