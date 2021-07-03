@@ -26,8 +26,8 @@ pip3 install -i https://mirrors.aliyun.com/pypi/simple/ PyQt5
 
 --树莓派安装PyQt5  
 sudo apt update  
-sudo apt install python3-pyqt5   # for python3
-sudo apt install python-pyqt5    # for python2
+sudo apt install python3-pyqt5   # for python3  
+sudo apt install python-pyqt5    # for python2  
 
 pip3 install -i https://mirrors.aliyun.com/pypi/simple/ turtle
 
