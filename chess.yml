@@ -1,0 +1,19 @@
+context:
+  expressions:
+    playChess:
+      - from $chessRows:r1 $chessLines:l1 to $chessRows:r2 $chessLines:l2
+  slots:
+    grid: []
+
+
+{
+  intent: "playChess",
+  slots: {
+    r1: "ALPHA"
+    l1: "three"
+    r2: "BRAVO"
+    l2: "four"
+  }
+}
+
+
