@@ -22,6 +22,8 @@ pip3 install -i https://mirrors.aliyun.com/pypi/simple/  python-chess
 
 pip3 install -i https://mirrors.aliyun.com/pypi/simple/ PyAudio
 
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ PyQt5  
+
 pip3 install -i https://mirrors.aliyun.com/pypi/simple/ turtle
 
 pip3 install -i https://mirrors.aliyun.com/pypi/simple/ termcolor
