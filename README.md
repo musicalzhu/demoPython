@@ -11,7 +11,8 @@ Picovoice
 https://www.picovoice.ai/
 
 Wake Word Detection on the Raspberry Pi with Porcupine
-https://pimylifeup.com/raspberry-pi-porcupine/
+https://pimylifeup.com/raspberry-pi-porcupine/  
+备注：上述文档创建的.asoundrc会在树莓派重启后被自动删除，貌似和树莓派新版本启用pulseaudio有关，但目前不影响麦克风采集声音！
 
 ------------------------------------------------------------------------------------------
 --国内镜像库
