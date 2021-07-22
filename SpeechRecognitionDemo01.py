@@ -11,10 +11,17 @@ with sr.Microphone() as source:
     audio = r.listen(source)
 
     #r.recognize_sphinx(audio,language="chess-EN", grammar="chess.gram")# return a result of recognition
-    r.recognize_sphinx(audio)
+
+# 使用CMU Sphinx引擎去识别音频
+try:
+    print("Sphinx thinks you said: " + r.recognize_sphinx(audio))
+except sr.UnknownValueError:
+    print("Sphinx could not understand audio")
+except sr.RequestError as e:
+    print("Sphinx error; {0}".format(e))
 
 # write audio to a WAV file
-with open("microphone-results.wav", "wb") as f:
+with open("C:\WorkBench\Python\microphone-results.wav", "wb") as f:
     f.write(audio.get_wav_data())    
 
 print('Ok')
