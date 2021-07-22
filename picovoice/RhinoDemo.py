@@ -1,6 +1,7 @@
 import pvrhino
 import struct
 import pyaudio
+import os
 
 pa = None
 handle = None
@@ -8,8 +9,9 @@ audio_stream = None
 
 try:
     pa = pyaudio.PyAudio()
+    inpath = "/home/pi/python/picovoice/chess_en_raspberry-pi_2021-08-02-utc_v1_6_0.rhn"
 
-    handle = pvrhino.create(context_path='C:\WorkBench\Python\chess_en_windows_2021-08-02-utc_v1_6_0.rhn')
+    handle = pvrhino.create(inpath)
 
     audio_stream = pa.open(
                         rate=handle.sample_rate,
